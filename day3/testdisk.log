@@ -1,0 +1,64 @@
+
+
+Sat Apr  1 01:25:10 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-67-generic (#74~20.04.1-Ubuntu SMP Wed Feb 22 14:52:34 UTC 2023) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+/dev/sda: LBA, LBA48 support
+/dev/sda: size       976773168 sectors
+/dev/sda: user_max   976773168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop3 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop4 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop5 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop6 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop7 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 500 GB / 465 GiB - CHS 60801 255 63, sector size=512 - CT500MX500SSD1, S/N:2049E4D73094, FW:M3CR023
+Disk /dev/sdb - 3910 MB / 3728 MiB - CHS 1017 121 62, sector size=512 - MBIL SSM Moser Baer Disk, FW:PMAP
+Disk /dev/loop0 - 52 MB / 49 MiB - 102072 sectors (RO), sector size=512
+Disk /dev/loop1 - 66 MB / 63 MiB - 129672 sectors (RO), sector size=512
+Disk /dev/loop2 - 215 MB / 205 MiB - 421552 sectors (RO), sector size=512
+
+Partition table type (auto): EFI GPT
+Disk /dev/sdb - 3910 MB / 3728 MiB - MBIL SSM Moser Baer Disk
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=7636799 (expected 7636799)
+hdr_lba_start=34
+hdr_lba_end=7636766
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P MS Data                     2048     309247     307200 [data1]
+     FAT16, blocksize=4096, 157 MB / 150 MiB
+ 2 P MS Data                   309248    7634943    7325696 [data2]
+     FAT32, blocksize=4096, 3750 MB / 3577 MiB
+
+Directory /
+X      3 -rwxr-xr-x     0      0        16  7-Apr-2023 23:49 day2File1.txt
+X      4 -rwxr-xr-x     0      0        17  7-Apr-2023 23:49 day2File2.txt
+X      6 -rwxr-xr-x     0      0        17  7-Apr-2023 23:49 day2File4.txt
+X      5 -rwxr-xr-x     0      0        17  7-Apr-2023 23:49 day2File3.txt
+X      7 -rwxr-xr-x     0      0        17  7-Apr-2023 23:49 day2File5.txt
+       8 drwxr-xr-x     0      0         0  7-Apr-2023 23:51 .Trash-1000
+X     11 -rwxr-xr-x     0      0        23  6-Dec-2022 20:57 flag.txt
+       0 -rwxr-xr-x     0      0         0  4-Dec-2021 13:11 SimpleCTF
+      12 -rwxr-xr-x     0      0       111  6-Dec-2022 20:57 userlist.txt
+X     13 -rwxr-xr-x     0      0     13685  6-Feb-2023 21:55 Screenshot from 2023-02-06 21-55-06.png
+fat_copy dst=/home/jack/int301/ca3-int301/day3/day2File1.txt first_cluster=3 (352) size=16
+fat_copy dst=/home/jack/int301/ca3-int301/day3/day2File2.txt first_cluster=4 (360) size=17
+fat_copy dst=/home/jack/int301/ca3-int301/day3/day2File4.txt first_cluster=6 (376) size=17
+fat_copy dst=/home/jack/int301/ca3-int301/day3/day2File3.txt first_cluster=5 (368) size=17
+fat_copy dst=/home/jack/int301/ca3-int301/day3/flag.txt first_cluster=11 (416) size=23
+fat_copy dst=/home/jack/int301/ca3-int301/day3/Screenshot from 2023-02-06 21-55-06.png first_cluster=13 (432) size=13685
+
+TestDisk exited normally.
