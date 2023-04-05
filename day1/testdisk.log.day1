@@ -1,0 +1,56 @@
+
+
+Wed Apr  5 23:40:42 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-67-generic (#74~20.04.1-Ubuntu SMP Wed Feb 22 14:52:34 UTC 2023) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+/dev/sda: LBA, LBA48 support
+/dev/sda: size       976773168 sectors
+/dev/sda: user_max   976773168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop0 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop1 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop2 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop3 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop4 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop5 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop6 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop7 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 500 GB / 465 GiB - CHS 60801 255 63, sector size=512 - CT500MX500SSD1, S/N:2049E4D73094, FW:M3CR023
+Disk /dev/sdb - 3910 MB / 3728 MiB - CHS 1017 121 62, sector size=512 - MBIL SSM Moser Baer Disk, FW:PMAP
+
+Partition table type (auto): EFI GPT
+Disk /dev/sdb - 3910 MB / 3728 MiB - MBIL SSM Moser Baer Disk
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=7636799 (expected 7636799)
+hdr_lba_start=34
+hdr_lba_end=7636766
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P MS Data                     2048    7636766    7634719 [Main Data Partition] [usbDisk]
+     FAT32, blocksize=4096, 3908 MB / 3727 MiB
+
+FAT: cluster=2(0x2), pos=16976
+Directory /
+X      3 -rwxr-xr-x     0      0    705885 27-Oct-2019 00:46 WP_99_44510_1571079292.png.jpeg
+X    176 -rwxr-xr-x     0      0   1036530 27-Oct-2019 00:45 WP_99_310755_1563373801.png.jpeg
+X    430 -rwxr-xr-x     0      0    616061 27-Oct-2019 00:46 WP_99_374839_1568565797.png.jpeg
+     581 drwxr-xr-x     0      0         0  5-Apr-2023 23:39 .Trash-1000
+fat_copy dst=/home/jack/int301/WP_99_44510_1571079292.png.jpeg first_cluster=3 (14936) size=705885
+fat_copy dst=/home/jack/int301/WP_99_310755_1563373801.png.jpeg first_cluster=176 (16320) size=1036530
+fat_copy dst=/home/jack/int301/WP_99_310755_1563373801.png.jpeg first_cluster=176 (16320) size=1036530
+fat_copy dst=/home/jack/int301/WP_99_310755_1563373801.png.jpeg first_cluster=176 (16320) size=1036530
+fat_copy dst=/home/jack/int301/WP_99_374839_1568565797.png.jpeg first_cluster=430 (18352) size=616061
+
+TestDisk exited normally.
