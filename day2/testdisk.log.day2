@@ -1,0 +1,64 @@
+
+
+Fri Apr  7 23:51:10 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-67-generic (#74~20.04.1-Ubuntu SMP Wed Feb 22 14:52:34 UTC 2023) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+Using locale 'en_IN'.
+
+
+Fri Apr  7 23:51:10 2023
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.15.0-67-generic (#74~20.04.1-Ubuntu SMP Wed Feb 22 14:52:34 UTC 2023) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+/dev/sda: LBA, LBA48 support
+/dev/sda: size       976773168 sectors
+/dev/sda: user_max   976773168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop0 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop1 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop2 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop3 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop4 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop5 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop6 - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop7 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 500 GB / 465 GiB - CHS 60801 255 63, sector size=512 - CT500MX500SSD1, S/N:2049E4D73094, FW:M3CR023
+Disk /dev/sdb - 3910 MB / 3728 MiB - CHS 1017 121 62, sector size=512 - MBIL SSM Moser Baer Disk, FW:PMAP
+
+Partition table type (auto): EFI GPT
+Disk /dev/sdb - 3910 MB / 3728 MiB - MBIL SSM Moser Baer Disk
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=7636799 (expected 7636799)
+hdr_lba_start=34
+hdr_lba_end=7636766
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P MS Data                     2048     309247     307200 [data1]
+     FAT16, blocksize=4096, 157 MB / 150 MiB
+ 2 P MS Data                   309248    7634943    7325696 [data2]
+     FAT32, blocksize=4096, 3750 MB / 3577 MiB
+Image created successfully.
+
+TestDisk exited normally.
